@@ -9,12 +9,17 @@
     --bg-white: #fff;
     --bg-blue: #102347;
     --bg-gray: #181818;
+    --bg-bluegray: #283142;
+    --bg-purple: #676FFF;
+    --bg-coral: #FF6B72;
 
 }
 
 body, html {
     background-color: var(--bg-black);
     color: var(--bg-white);
+    min-width: 235px;
+    width: 100%;
 }
 
 a, a:hover, a:visited{
@@ -45,4 +50,56 @@ nav p {
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 28px;
+}
+
+.dsmeta-sales-container {
+    margin: 40px 10px;
+    padding: 30px 10px;
+    background-color: var(--bg-bluegray);
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.itens-container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 10px;    
+}
+
+.dsmeta-sales-itens {
+    display: flex;
+}
+
+.dsmeta-sales-itens h1 {
+    padding-right: 5px;
+    color: var(--bg-purple);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.user-card {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+   
+    .dsmeta-sales-container {
+        padding: 30px 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .dsmeta-sales-container {
+        padding: 30px 35px;
+    }
 }
