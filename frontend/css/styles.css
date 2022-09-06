@@ -140,13 +140,13 @@ nav p {
   background-color: var(--dpb-grayblue);
 }
 
-.user-card-container {
+.notification-container {
     display: flex;
     justify-content: center;
 
 }
 
-.user-card {
+.dsmeta-red-btn {
   width: 45px;
   height: 45px;
   background: rgba(255, 107, 114, 0.1);
@@ -158,11 +158,11 @@ nav p {
   cursor: pointer;
 }
 
-.user-card img{
+.dsmeta-red-btn img{
     width: 19px;
 }
 
-.user-card:hover {
+.dsmeta-red-btn:hover {
   background: rgba(255, 107, 114, 0.4);
 }
 
